@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 * {
-    margin: 0;
+    margin: auto;
+    
 }
 
 body {
@@ -68,18 +69,18 @@ p {
     border-radius: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
+hr{
+    width: 95%;
+}
 #info h3 {
     font-size: 30px;
     margin-top: 40px;
 }
 
 .info-esp {
-    width: 90%;
-
-
+    width: 100%;
     transition: transform 0.3s ease-in-out;
-    padding: 40px;
+    padding: 1%;
 }
 
 .info-esp ul {
@@ -107,26 +108,21 @@ p {
 }
 
 #imagem {
-    width: 80%;
-    height: 70vh;
+    width: 50%;
+    object-fit: cover;
     overflow: hidden;
-    position: relative;
+    display: flex;
     border-radius: 30px;
-    display: block;
-    margin: 20px auto;
-    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
 
 }
 
 #fusca-capa {
     width: 100%;
-    height: auto;
     object-fit: cover;
-    position: absolute;
-    top: -50%;
     overflow: hidden;
-    display: block;
-    margin: 20px auto;
+    display: flex;
     border-radius: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease-in-out;
@@ -155,8 +151,9 @@ p {
 }
 
 iframe {
-    display: block;
+    display: flex;
     margin: 60px auto;
+    padding: auto;
     align-items: center;
     border-radius: 20px;
     width: 560px;
@@ -172,9 +169,6 @@ nav a {
     font-weight: bold;
 }
 
-section {
-    padding: 2rem;
-}
 
 #carousel {
     display: flex;
