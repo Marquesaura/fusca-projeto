@@ -58,13 +58,15 @@ p {
 }
 
 #info {
-    width: 85%;
+    background-color: rgb(255, 210, 142);
+    width: 80%;
     height: auto;
     display: block;
     margin: 20px auto;
     align-items: center;
     text-align: center;
-
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 #info h3 {
@@ -74,8 +76,8 @@ p {
 
 .info-esp {
     width: 90%;
-    border-radius: 30px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+
     transition: transform 0.3s ease-in-out;
     padding: 40px;
 }
@@ -131,7 +133,7 @@ p {
 
 }
 
-#nome{
+#nome {
     font-size: 35px;
     margin: 20px;
     display: block;
@@ -145,7 +147,8 @@ p {
     padding: 15px;
 
 }
-#nome:hover{
+
+#nome:hover {
     opacity: 1;
     transition: 0.4s;
     background-color: rgb(255, 203, 125);
@@ -153,7 +156,7 @@ p {
 
 iframe {
     display: block;
-    margin: 20px auto;
+    margin: 60px auto;
     align-items: center;
     border-radius: 20px;
     width: 560px;
@@ -171,11 +174,6 @@ nav a {
 
 section {
     padding: 2rem;
-}
-
-#produtos h2 {
-    color: #fff9a5;
-    margin-bottom: 1rem;
 }
 
 #carousel {
