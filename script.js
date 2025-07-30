@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         prevBtn.style.backgroundColor = 'yellow';
         setTimeout(() => {
             prevBtn.style.backgroundColor = '#fff9a5';
-        }, 400);
+        }, 300);
     });
 
     nextBtn.addEventListener('click', () => {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nextBtn.style.backgroundColor = 'yellow';
         setTimeout(() => {
             nextBtn.style.backgroundColor = '#fff9a5';
-        }, 400);
+        }, 300);
     });
 
     showImage(currentIndex);

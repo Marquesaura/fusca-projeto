@@ -15,10 +15,11 @@ header {
 }
 
 #logo {
-    width: 300px;
-    height: auto;
+    width: 200px;
+    height: 80px;
     margin: 20px;
     margin-top: 0;
+    object-fit: cover;
 }
 
 #titulo {
@@ -51,12 +52,12 @@ header {
     }
 }
 
-p{
+p {
     font-size: 25px;
     margin: 20px;
 }
 
-#info{
+#info {
     width: 85%;
     height: auto;
     display: block;
@@ -65,6 +66,36 @@ p{
     text-align: center;
 
 }
+
+#info h3 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.info-esp {
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    padding: 40px;
+}
+
+.info-esp ul {
+    font-size: 25px;
+}
+
+#text-inicial {
+    width: 85%;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    padding: 40px;
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    background-color: rgb(255, 203, 125);
+}
+
 #contador {
     display: block;
     margin: 20px auto;
@@ -100,10 +131,33 @@ p{
 
 }
 
+#nome{
+    font-size: 35px;
+    margin: 20px;
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 350px;
+    opacity: 0.7;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+#nome:hover{
+    opacity: 1;
+    transition: 0.4s;
+    background-color: rgb(255, 203, 125);
+}
+
 iframe {
     display: block;
     margin: 20px auto;
     align-items: center;
+    border-radius: 20px;
+    width: 560px;
+    height: 315px;
 
 }
 
@@ -170,7 +224,7 @@ section {
     height: 4rem;
     font-size: 2rem;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -179,6 +233,22 @@ section {
     transform: scale(1.1);
 }
 
-footer{
+footer {
     background-color: burlywood;
+    align-items: center;
+    text-align: center;
+    height: 15%;
+    padding: 1rem !important;
+    margin-bottom: -4%;
+    margin-top: 2rem;
+}
+
+footer p {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+
+    font-size: 1.3rem !important;
 }
